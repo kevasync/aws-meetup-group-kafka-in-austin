@@ -1,5 +1,5 @@
 # AWS Meetup Group
-## Kafka Stream Processing overview and Demo
+## Kafka Stream Processing Overview and Demo
 
 ### Install dependencies:
 * [kubectl - The Kubernetes command-line tool](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -8,7 +8,7 @@
 * [pulumi-cli - CLI interface to create infra with Pulumi](https://www.pulumi.com/docs/get-started/install/)
 * [aws iam-authenticator - Used by pulumi to access AWS using your credentials](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
 * [node.js - javascript all the things](https://nodejs.org/en/download/)
-* [watch - run commands on interval](https://osxdaily.com/2010/08/22/install-watch-command-on-os-x/)
+* [watch - continuously run a commands](https://osxdaily.com/2010/08/22/install-watch-command-on-os-x/)
 
 ### Create CLI account and set up credentials
 * Create user in IAM
