@@ -2,7 +2,7 @@
 ## Kafka Stream Processing Overview and Demo
 
 ### Install dependencies:
-* [kubectl - The Kubernetes command-line tool](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+* [kubectl - CLI to interact with k8s](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [helm - packaging resource that desecribes k8s resources](https://helm.sh/docs/intro/install/)
 * [aws-cli - CLI to interact with AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 * [pulumi-cli - CLI interface to create infra with Pulumi](https://www.pulumi.com/docs/get-started/install/)
