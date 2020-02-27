@@ -52,6 +52,18 @@
 
 
 ### Destroy Resouces
+* Turn all features off besides Confluent Operator in `Pulumi.dev.yaml` in `confluent-kafka-operator` directory:
+```
+  confluent-kafka-operator:enableConnect: "false"
+  confluent-kafka-operator:enableControlCenter: "false"
+  confluent-kafka-operator:enableKafka: "false"
+  confluent-kafka-operator:enableKsql: "false"
+  confluent-kafka-operator:enableOperator: "true"
+  confluent-kafka-operator:enableReplicator: "false"
+  confluent-kafka-operator:enableSchemaRegistry: "false"
+  confluent-kafka-operator:enableZookeeper: "false"
+```
+* `pulumi up --skip-preview`
 * In `pulumi destroy --skip-preview` in the following directories:
     * `aws-eks-infra`
     * `confluent-kafka-operator`
