@@ -64,7 +64,7 @@
   confluent-kafka-operator:enableZookeeper: "false"
 ```
 * `pulumi up --skip-preview`
-* In `pulumi destroy --skip-preview` in the following directories:
+* Execute `pulumi destroy --skip-preview` in the following directories:
     * `aws-eks-infra`
     * `confluent-kafka-operator`
 
